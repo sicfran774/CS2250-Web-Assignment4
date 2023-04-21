@@ -1,0 +1,35 @@
+.set{
+    background-color: aqua;
+    border: 1px solid black;
+    margin: 2px;
+    padding: 3px;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    width: 25px;
+    height: 12px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin: 1px;
+    padding: 5px 90px 5px 30px;
+    transition: background-color 200ms;
+}
+
+li:hover{
+    background-color: red;
+}
+
+#MyTitle, #MyFoot{
+   justify-content: center;
+    display: flex;
+}
